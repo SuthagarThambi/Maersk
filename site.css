@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: white;
+}
+  .flexbox-conatiner{
+      width: 90%;
+      display: grid;
+      margin: 0 auto;
+      grid-template-columns: 120px 120px 120px;
+     grid-gap: 1px;
+     list-style-type:none;
+     
+     background-color: white;
+  }  
+  .flexbox-item{
+      padding: 10px;
+      width: 120px;
+      height: 120px;
+      font-size: 75px;
+      color: white;
+  }
+
+  .flexbox-item:nth-child(3),.flexbox-item:nth-child(5),.flexbox-item:nth-child(9){
+    background-color: #2F454E !important;
+}
+
+.flexbox-item:nth-child(7),.flexbox-item:nth-child(6){
+    background-color: #BFBFBF !important;
+}
+.flexbox-item:nth-child(1),.flexbox-item:nth-child(8){
+    background-color: #6F98A8 !important;
+}
+  .flexbox-item:nth-child(even){
+      background-color: #2B8EAD;
+  }
+  .flexbox-item:nth-child(odd){
+    background-color:#72C3DC ;
+}
+
+
+ button{
+      width: 90px;
+      height: 30px;
+      background-color:#72C3DC ;
+      float:inline-start;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 100px;
+    
+  }
